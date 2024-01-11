@@ -20,4 +20,9 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+
+    public bool IsAlive()
+    {
+        return life != 0;
+    }
 }

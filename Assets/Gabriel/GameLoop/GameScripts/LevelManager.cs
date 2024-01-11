@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class LevelManager : Singleton<LevelManager>
 {
     [SerializeField] private int numberOfWaves = 5;
     [SerializeField] private float startDelay = 3f;
     [SerializeField] private float endDelay = 3f;
-    [SerializeField] private Monster _monsterPrefab;
+    [FormerlySerializedAs("_monsterPrefab")] [SerializeField] private Enemy _enemyPrefab;
 
     private PlayerMovement _player;
     
@@ -16,7 +17,7 @@ public class LevelManager : Singleton<LevelManager>
     private WaitForSeconds endWait;
     
     private int _waveCount = 1;
-    private List<Monster> _currentWaveMonsters = new();
+    private List<Enemy> _currentWaveMonsters = new();
     
     private void Start()
     {
@@ -62,7 +63,7 @@ public class LevelManager : Singleton<LevelManager>
 
     private bool AreEnemiesAlive()
     {
-        return _currentWaveMonsters.Any(monster => monster.IsAlive);
+        return _currentWaveMonsters.Any(enemy => enemy.IsAlive());
     }
 
     private void SpawnWave(int waveCount)
@@ -124,7 +125,7 @@ public class LevelManager : Singleton<LevelManager>
         randomPos.z = 0;
         randomPos.y = Mathf.Sin(dotProductAngle * (Random.value > 0.5f ? 1f : -1f)) * radius + transform.position.z;
             
-        var monster = Instantiate(_monsterPrefab, randomPos, Quaternion.identity);
+        var monster = Instantiate(_enemyPrefab, randomPos, Quaternion.identity);
         monster.transform.position = randomPos;
         _currentWaveMonsters.Add(monster);
     }
