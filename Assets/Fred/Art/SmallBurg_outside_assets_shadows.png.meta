@@ -1,0 +1,4430 @@
+fileFormatVersion: 2
+guid: 9ccae8358d68547d7b1a2c77c5083608
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72a55c7ff44c442ea2a963ed48228b6
+      internalID: 1057771021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fee3ab058c44fc894d081575ef6821
+      internalID: -935714912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f7d7c85c5324911a2fe3778760732a
+      internalID: -1992040812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddfae8a9110245f79e58865b21a1ce0
+      internalID: 2111592273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37cef10b4aa542228aed165e1912547
+      internalID: 3508881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e386ca0433d4d6cb83054967af6d3d
+      internalID: -347415595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ffd7f737c984b7faef94ba1e09345c
+      internalID: -1976824812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53977259d3fe541b2823d952dc9ed5f4
+      internalID: 318418763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aee0cbbcd70d4c138a0ab64988179a6
+      internalID: -536832922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c830d32a836404780b58e2c5feac27
+      internalID: -1796101350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d49f8d6dd0a4994a72cf817ee737e5
+      internalID: 1288013014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70525489904b43d5a4b1c76fe2b6fc6
+      internalID: -1557765493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c555c0e5cf3e24d00aa1f569e8552cfc
+      internalID: -64245890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1940c26e565c14dfda460155e409be55
+      internalID: 821940671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456b6656013734d1788c9bba38f794e6
+      internalID: 1031288036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757512fdff2f14eadb24e448d087c06f
+      internalID: 22883048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c68dc08027b7458ebc7d8150c68c165
+      internalID: -1695985481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b79701bb4b544ec881b22818417035
+      internalID: -1848058532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d987cfec43e734d13b621de97a571bd5
+      internalID: 753515957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4754cc28d9ba54f969b923b937ca01bd
+      internalID: -116618140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c287761520a674174b445fd155decc06
+      internalID: -2013816513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a914a8d1eaaa04a50b8db7fe93e90d89
+      internalID: 845978101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ea140796e0b46f592d3f9de5d905ed
+      internalID: -1848984524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab2df503323544a4b81479c7732a2ec
+      internalID: 1291132647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48077a2e274244ebd96bb04b8c38ee33
+      internalID: -1642307777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e65297c42f047a6a2da3fbdfa2087c
+      internalID: 1124479359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55442a37b0bb4dfbad3c5623547653f
+      internalID: 1642210577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675a6c8770d2a4e60a35991370d6906e
+      internalID: 1117168710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_28
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863b5203b14e740db8d6ba1bea1ae408
+      internalID: -2020668510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835b37796a7c8428b8e5e6702a3135d0
+      internalID: 1116158763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cb147e0e36348519f036e39ec1656b
+      internalID: 580730610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bea0029444c24f21bd96da3f47d8d6e
+      internalID: 552645647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 398
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b9b04446dd845e0a25f6a4ce40611c
+      internalID: 1648762035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 398
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e54498c3b2443b4ab830681bff06fa
+      internalID: -2014815158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 398
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d597323148c224442a8c6b43807f34c8
+      internalID: -1127469833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 382
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7216f87eb734d83a3f96aef78316fa
+      internalID: -75521996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 382
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3d84ffa0deb4fdaac9ac8e596720f1
+      internalID: -1926221462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 382
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a87f4371e2b144ccac8d12796bb7d9a
+      internalID: -1863280822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 382
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bc8d47b4240479680792980a47d56a
+      internalID: -1681617284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 382
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7366b00e1de974eb3b85c3f4115fa836
+      internalID: 515193980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 366
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb594a826a4f448168aaec6e9efc63a9
+      internalID: 1849742274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 366
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea613a78b8da4f3faf6f1b3dd5920dc
+      internalID: 1976324524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d3c81f6f5344393a53e2c1d7ea38ce
+      internalID: 458319985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bc0e7dafbca41f7a414c5f12d67e4e
+      internalID: 914210470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42a230e3f62746dc93a50e615267fcd
+      internalID: 323484264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53e07e8a7c1a43a4bc3fe61a0b494b0
+      internalID: 1748182598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_46
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba3493ab9334f748ed18d8a2ae08eb
+      internalID: 1546000551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d856f42213a84358a05dbbb315207ba
+      internalID: 614102509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_48
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fc2ea2b5a9b46198421372f9609971
+      internalID: 641482578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bc5b2c3da8c4deca48e4830e56e7c7
+      internalID: -456192586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7e6dd582ee346caa5b162e9e926180
+      internalID: 1904162293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638ed51e1bdcd44348f93fad1fe6f656
+      internalID: -475596694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311cdba11ff5a4f49ab0bb9b52d3d379
+      internalID: -1691970658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b53b031c2ecf4efc9d772ee6d506a0d
+      internalID: 327186513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44824b1eefb944e6c9e501162aef0f1f
+      internalID: 342515108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_55
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da7be97f6b514e41966a87caf968757
+      internalID: -1936609408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298a2701a868044ceb3258f81a137f9f
+      internalID: -965276185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8502c965c99d247f8982a93d667b3ac0
+      internalID: -1684314118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3d8595518354a57b585d1f3738f7f8
+      internalID: -244812801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788c7a444159549f9aff0d596dd046dd
+      internalID: 206126068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd0b7cbe427548eaa1adca7b364365b
+      internalID: 109830421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b526be1bdbf459ca9b2dbf8949b4e2
+      internalID: -1711523067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c6dd8eea1dc4db798784a21643e1d1
+      internalID: 1412881007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_63
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efa99feefd8e45fa882e18b5f0495d1
+      internalID: 1383767633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f195d03f9bcf4893a0d3013bc23ba9f
+      internalID: 1332137648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05675fbfed8da45cf96ea7c4ca0f958a
+      internalID: 550112505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dae60f92938456b9d1cca96b512ead
+      internalID: -563991125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b262a4b58d83b472bb7248359a020ea9
+      internalID: -890370599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facd4df3df91d4fd59718bf6319ca85b
+      internalID: -144903452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30c89baf40444c0bb755c4b1e54514b
+      internalID: 552328269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6189dc5ada0514b498b0e8f9f4cca645
+      internalID: -1775020343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00376616fddc44e1fb60f5d5bbadcc3b
+      internalID: -1595299129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb82a5a7332446ce96fc9187d287b41
+      internalID: -615013779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_73
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43100177a0a374e6d81df5c382fb0a85
+      internalID: 2011131191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5000ec85b769f46679da9635354b93d2
+      internalID: -2024159374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_75
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 270
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b988679f9c234c88853a116197ba4b9
+      internalID: -481583632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_76
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 270
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f554aebe573114b15a04ffbd7ae4c7c0
+      internalID: -288846872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_77
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 270
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2168203fadf044bb28b1ecbd08fd29cf
+      internalID: -1149591094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 270
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b9fc5f208c3472cab5766c50459e37
+      internalID: 1255336209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 270
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba881c47252d455786f5d171ad80838
+      internalID: -1159835135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 270
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0c01db60cde4331977ffe50a348a4b
+      internalID: 1597678863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_81
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 270
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fd6cc0c1feb44cf943ef4c09181c78
+      internalID: 383873602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 270
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cdae813161d4f4797f495e76d18e85
+      internalID: 1972204649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf36b9c631929493f9b44ee355572da7
+      internalID: 818177938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08f3abaf24fc41898394ee7e864267e
+      internalID: -1224799617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6587d36a794e848fe880adb794c102f2
+      internalID: 691405622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178716610f07a429e8322e7c34ce27c1
+      internalID: -1236950280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_87
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701f257dfc393485dbd29925d1dedd2a
+      internalID: 1494809080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63e158614189487fa6a81342f2de283
+      internalID: -1499931642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_89
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18643b7f8c0964d729c90368ecacbf9b
+      internalID: -2124861767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_90
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ba54c09299f4847a3f14c66bbafcda
+      internalID: -1473734118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_91
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51be99e756e341aaa4542ec687c94df
+      internalID: 410808732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18464972d3b043db905d4958b4b9e3c
+      internalID: 1006278247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44c5437a611b423689a400fb01f4629
+      internalID: -423955779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_94
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d53fd76de3f4897b1b70da24504880
+      internalID: -624831811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_95
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2403d5507aab2431596c1047445fecd1
+      internalID: 553116440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_96
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc4190f175454a66acfeec175601aad
+      internalID: -259596508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_97
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36739438ef27f42a8b031fca166d68e3
+      internalID: -410724456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf0d8c8e5ad9402d9e4b2e6a90c75b7
+      internalID: 769679290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_99
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1539d929cde1408a8bfed19167a2b9f
+      internalID: 1994094547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_100
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81c1dd09e7ed4cf4b5c4f22f6cf262e
+      internalID: -1611473452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1497cc2a22d446ca98797572d06c7d
+      internalID: -880958869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_102
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab18e981b07d4ce0a296ac59ef9aee8
+      internalID: -973397967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3605909c7fdc343f8a277d87e99ec758
+      internalID: 52647334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36e3a188615a42a8b4e55d9e4a3f594
+      internalID: -2138798606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f816b68c804d4f5b913f249d7eb6088
+      internalID: -1698399506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_106
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e976d341aae34fefbf9a52145f2440a
+      internalID: 1298748404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_107
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333d33b47749244068f99ce45303f793
+      internalID: 1666562843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_108
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15ebd716aee7457abcbc3e5be35c1c4
+      internalID: -863871315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_109
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0733f757034c242eebc5848082dcfc17
+      internalID: -1118241010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_110
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc08081cf2e24579a7a5dc708c6acb0
+      internalID: 2105466519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_111
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52747215c12d94937b73aeae000fa607
+      internalID: 1125839510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_112
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27d99d46982c41eaa83f1ec35712d37
+      internalID: 881007665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_113
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec3f58b2f3304bd0822c5e016d620c0
+      internalID: 2133724996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_114
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326c05b41859f4bbeb777b8ebf50fced
+      internalID: 1565822475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_115
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b20962bb9e840dab3ab85e5c664e0a
+      internalID: 1683005078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_116
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b19a60848614646be8bf3ac8920a4c
+      internalID: 1791216707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbf8eacb2e684cd5b93fe7fffd5f991
+      internalID: 1289465634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_118
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da271ab228f743c0b11cb8e28199678
+      internalID: -220599056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_119
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9e01672817845a989a8cb143a42584
+      internalID: 1325724908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_120
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7651036eeb7d4af8baaa5823a961459
+      internalID: 1022342772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_121
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc32ab38f2be4a1bae80d012c95c966
+      internalID: 498853315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_122
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3ab4e62c4fb4007921490a1e642cd6
+      internalID: 388588000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_123
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddad24ffba674563bb5bae35917b030
+      internalID: 467223756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_124
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2dfaddf7af4453ba7852f7520f5c6f
+      internalID: 249152617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_125
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c910c7468ae444eeb87b1bc6a4d591b1
+      internalID: -795050951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_126
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e41c64166dc4db6b5b5f077b12ed87
+      internalID: 279379404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_127
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eed02e2256f4b0c9ef4fa2aae38da4
+      internalID: -1243372123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_128
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1909bae14c5e448b8066950b7d1f757
+      internalID: -762954207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_129
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b77c56bc81e453db90816e6b1afaee
+      internalID: -108590831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_130
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f14c63ac8694abc958985f81f589d4
+      internalID: 301262241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_131
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568d1624f71374c1884a7c3b981500f1
+      internalID: 1095756287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_132
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cb49482b05e46f0b971eedb9796dc2
+      internalID: -651327776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_133
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7578166ac8ef74b3cbc156ce559fae16
+      internalID: 1528240526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_134
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7459e28f961bb42daa70e98477907db7
+      internalID: 25479319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_135
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63424e98ae74d4be3b1107f39934b549
+      internalID: -1744398958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_136
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870542039311647c0a8851ec27402bac
+      internalID: 1225943259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_137
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f8217d8b6a946f69d071074adf0fca
+      internalID: -532718314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_138
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438441ee675454c45877b1723c80f712
+      internalID: -254946016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_139
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa2f4142eded40b68b8329e91ab5c7d
+      internalID: -190268123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_140
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa45a6167f41455eb645a995240e890
+      internalID: 989837080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_141
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af47bcb331994fa0a1dab07a7c68f12
+      internalID: -1050717300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_142
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc882f02b75dc48e1a849772f5ca78fa
+      internalID: 1061577549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_143
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ac1981f0ca9439cbbae1c63c8a41c9
+      internalID: -1597380214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_144
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f46a3a69d3a4cb4899303af1772c9a
+      internalID: -1631706755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518d2e245b92040edb5ba503607c48d4
+      internalID: 195258579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_146
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6ee4eb4c108436b91a81c2973e8b55
+      internalID: -131873637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f6b8ae4ca2b4392ab54d45531a83b3
+      internalID: 645652847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_148
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c136e6578386241a7958d2b44e728bba
+      internalID: 883000275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_149
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf05109b2dae40eb982f89d9ca0bde6
+      internalID: -136726149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_150
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0eddbebdd034074ab9914a7b1d5bc6
+      internalID: 1029161644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_151
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14a0d35bd3c1474784bea928a705021
+      internalID: -1080739893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_152
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470dfdba841544a088c4932f500a799d
+      internalID: 914819233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_153
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9ceaf39f9d344209562577f5cef98f
+      internalID: -354964806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_154
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2cd1a8fad144e6dbfbe4df996f5a5e
+      internalID: -607892301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_155
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabe96832e3fd4a608e0513faba68296
+      internalID: -300160807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_156
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641987d7ed1a44d72a060b08e71b2438
+      internalID: 1534548340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_157
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18386667bb2624058a3ae0f9c31d5f57
+      internalID: 1135352226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_158
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab42368a4ee054740b8ab8606692bb79
+      internalID: 1105066032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_159
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ceb34f941824febb8a9a48481ccd09
+      internalID: -1980476257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_160
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12134de487ed4928a01ff46f046dd89
+      internalID: 2111628840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_161
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6a7a952c4cc4ca58d9fa770ecaf63b
+      internalID: 1633586762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f212a75f4bd4a52bc9eb9e74fef47d
+      internalID: -493203557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_163
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a38814e7a84424d9776c9418138c55
+      internalID: -1886587741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_164
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d08e9f195d7d40c1aea014f6f40cd91
+      internalID: -1480347993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_165
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537e328edb39d49578c4608086d848f4
+      internalID: 1847061047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_166
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd921d1205773443c9967065a343db9e
+      internalID: 145683141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_167
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fd3e3108d5d4bdea62704017fc12e1
+      internalID: 1636801298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_168
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f63b81a5a2c14ffb9899e8d475c99e2
+      internalID: 708864541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_169
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36bb5b7da53c4617a5edd3d14ebe301
+      internalID: 1180056294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_170
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edf260a5d73a43a9ab7d7f24c3fce32
+      internalID: 2020938231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_171
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c6089c8698e4390ad43e1254064255
+      internalID: -661816433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_172
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966d2c9237b794579804d6f624e7ee0c
+      internalID: 588978297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_173
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6287fbaf3e74f8fa120defccabf513
+      internalID: 1255515942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_174
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c39c9a7066e54ad09c27a933d6241e8
+      internalID: -1674212452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_175
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac685313d11ed4fa788c19cd5a37ca6e
+      internalID: -1596535199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_176
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533606fb62d264d1984ac67eaff57d15
+      internalID: 1305748544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_177
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615f97077d3094d89b04e635a8c923ca
+      internalID: -1858555626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_178
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49034db3628d440baa4fbd395d630eb
+      internalID: -458682420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_179
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f2a8929262144cf881ccf55149f1ed
+      internalID: -1544484998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_180
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcfee0c8f3824f5ab9c670378dc5323
+      internalID: 149986550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_181
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996aa32b6a20e4e2cb40e82a89f3b0a7
+      internalID: -1998212761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_182
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ba6759f31e0425395d3c7f559fa82d
+      internalID: 2017189130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_183
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dcf83d0c5ac40a89ae54cc58876cde
+      internalID: -590680738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_184
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53716de46215468aa2d2d3fd2bd8f88
+      internalID: 894779866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_185
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fdd186a4c894e9095039bef554dd41
+      internalID: -1807844954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_186
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3465f507217458880219363b9cb54c
+      internalID: -1121806038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_187
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d5f143b8d9444da9271f57410314e8
+      internalID: -1820533062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_188
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067e3fa2da601499dbb62008c926c726
+      internalID: -2009005736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_189
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd0685d3f7a24624985777fa0c87f2b
+      internalID: -636453899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_190
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7964f73d6eba94e1781b0568a22653f6
+      internalID: -1997649476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_191
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f639b9cafc8c440dae24c23871718f8
+      internalID: 192844140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_192
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe0c18afd1e64f118af1116ebc49b46
+      internalID: 2041805164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_193
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad881680f33d4ac2ae51369ce87af1a
+      internalID: -329594183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallBurg_outside_assets_shadows_194
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82db59cd79e14ac3b9101c58aa95f2e
+      internalID: -1118576658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SmallBurg_outside_assets_shadows_0: 1057771021
+      SmallBurg_outside_assets_shadows_1: -935714912
+      SmallBurg_outside_assets_shadows_10: 1288013014
+      SmallBurg_outside_assets_shadows_100: -1611473452
+      SmallBurg_outside_assets_shadows_101: -880958869
+      SmallBurg_outside_assets_shadows_102: -973397967
+      SmallBurg_outside_assets_shadows_103: 52647334
+      SmallBurg_outside_assets_shadows_104: -2138798606
+      SmallBurg_outside_assets_shadows_105: -1698399506
+      SmallBurg_outside_assets_shadows_106: 1298748404
+      SmallBurg_outside_assets_shadows_107: 1666562843
+      SmallBurg_outside_assets_shadows_108: -863871315
+      SmallBurg_outside_assets_shadows_109: -1118241010
+      SmallBurg_outside_assets_shadows_11: -1557765493
+      SmallBurg_outside_assets_shadows_110: 2105466519
+      SmallBurg_outside_assets_shadows_111: 1125839510
+      SmallBurg_outside_assets_shadows_112: 881007665
+      SmallBurg_outside_assets_shadows_113: 2133724996
+      SmallBurg_outside_assets_shadows_114: 1565822475
+      SmallBurg_outside_assets_shadows_115: 1683005078
+      SmallBurg_outside_assets_shadows_116: 1791216707
+      SmallBurg_outside_assets_shadows_117: 1289465634
+      SmallBurg_outside_assets_shadows_118: -220599056
+      SmallBurg_outside_assets_shadows_119: 1325724908
+      SmallBurg_outside_assets_shadows_12: -64245890
+      SmallBurg_outside_assets_shadows_120: 1022342772
+      SmallBurg_outside_assets_shadows_121: 498853315
+      SmallBurg_outside_assets_shadows_122: 388588000
+      SmallBurg_outside_assets_shadows_123: 467223756
+      SmallBurg_outside_assets_shadows_124: 249152617
+      SmallBurg_outside_assets_shadows_125: -795050951
+      SmallBurg_outside_assets_shadows_126: 279379404
+      SmallBurg_outside_assets_shadows_127: -1243372123
+      SmallBurg_outside_assets_shadows_128: -762954207
+      SmallBurg_outside_assets_shadows_129: -108590831
+      SmallBurg_outside_assets_shadows_13: 821940671
+      SmallBurg_outside_assets_shadows_130: 301262241
+      SmallBurg_outside_assets_shadows_131: 1095756287
+      SmallBurg_outside_assets_shadows_132: -651327776
+      SmallBurg_outside_assets_shadows_133: 1528240526
+      SmallBurg_outside_assets_shadows_134: 25479319
+      SmallBurg_outside_assets_shadows_135: -1744398958
+      SmallBurg_outside_assets_shadows_136: 1225943259
+      SmallBurg_outside_assets_shadows_137: -532718314
+      SmallBurg_outside_assets_shadows_138: -254946016
+      SmallBurg_outside_assets_shadows_139: -190268123
+      SmallBurg_outside_assets_shadows_14: 1031288036
+      SmallBurg_outside_assets_shadows_140: 989837080
+      SmallBurg_outside_assets_shadows_141: -1050717300
+      SmallBurg_outside_assets_shadows_142: 1061577549
+      SmallBurg_outside_assets_shadows_143: -1597380214
+      SmallBurg_outside_assets_shadows_144: -1631706755
+      SmallBurg_outside_assets_shadows_145: 195258579
+      SmallBurg_outside_assets_shadows_146: -131873637
+      SmallBurg_outside_assets_shadows_147: 645652847
+      SmallBurg_outside_assets_shadows_148: 883000275
+      SmallBurg_outside_assets_shadows_149: -136726149
+      SmallBurg_outside_assets_shadows_15: 22883048
+      SmallBurg_outside_assets_shadows_150: 1029161644
+      SmallBurg_outside_assets_shadows_151: -1080739893
+      SmallBurg_outside_assets_shadows_152: 914819233
+      SmallBurg_outside_assets_shadows_153: -354964806
+      SmallBurg_outside_assets_shadows_154: -607892301
+      SmallBurg_outside_assets_shadows_155: -300160807
+      SmallBurg_outside_assets_shadows_156: 1534548340
+      SmallBurg_outside_assets_shadows_157: 1135352226
+      SmallBurg_outside_assets_shadows_158: 1105066032
+      SmallBurg_outside_assets_shadows_159: -1980476257
+      SmallBurg_outside_assets_shadows_16: -1695985481
+      SmallBurg_outside_assets_shadows_160: 2111628840
+      SmallBurg_outside_assets_shadows_161: 1633586762
+      SmallBurg_outside_assets_shadows_162: -493203557
+      SmallBurg_outside_assets_shadows_163: -1886587741
+      SmallBurg_outside_assets_shadows_164: -1480347993
+      SmallBurg_outside_assets_shadows_165: 1847061047
+      SmallBurg_outside_assets_shadows_166: 145683141
+      SmallBurg_outside_assets_shadows_167: 1636801298
+      SmallBurg_outside_assets_shadows_168: 708864541
+      SmallBurg_outside_assets_shadows_169: 1180056294
+      SmallBurg_outside_assets_shadows_17: -1848058532
+      SmallBurg_outside_assets_shadows_170: 2020938231
+      SmallBurg_outside_assets_shadows_171: -661816433
+      SmallBurg_outside_assets_shadows_172: 588978297
+      SmallBurg_outside_assets_shadows_173: 1255515942
+      SmallBurg_outside_assets_shadows_174: -1674212452
+      SmallBurg_outside_assets_shadows_175: -1596535199
+      SmallBurg_outside_assets_shadows_176: 1305748544
+      SmallBurg_outside_assets_shadows_177: -1858555626
+      SmallBurg_outside_assets_shadows_178: -458682420
+      SmallBurg_outside_assets_shadows_179: -1544484998
+      SmallBurg_outside_assets_shadows_18: 753515957
+      SmallBurg_outside_assets_shadows_180: 149986550
+      SmallBurg_outside_assets_shadows_181: -1998212761
+      SmallBurg_outside_assets_shadows_182: 2017189130
+      SmallBurg_outside_assets_shadows_183: -590680738
+      SmallBurg_outside_assets_shadows_184: 894779866
+      SmallBurg_outside_assets_shadows_185: -1807844954
+      SmallBurg_outside_assets_shadows_186: -1121806038
+      SmallBurg_outside_assets_shadows_187: -1820533062
+      SmallBurg_outside_assets_shadows_188: -2009005736
+      SmallBurg_outside_assets_shadows_189: -636453899
+      SmallBurg_outside_assets_shadows_19: -116618140
+      SmallBurg_outside_assets_shadows_190: -1997649476
+      SmallBurg_outside_assets_shadows_191: 192844140
+      SmallBurg_outside_assets_shadows_192: 2041805164
+      SmallBurg_outside_assets_shadows_193: -329594183
+      SmallBurg_outside_assets_shadows_194: -1118576658
+      SmallBurg_outside_assets_shadows_2: -1992040812
+      SmallBurg_outside_assets_shadows_20: -2013816513
+      SmallBurg_outside_assets_shadows_21: 845978101
+      SmallBurg_outside_assets_shadows_22: -1848984524
+      SmallBurg_outside_assets_shadows_23: 1291132647
+      SmallBurg_outside_assets_shadows_24: -1642307777
+      SmallBurg_outside_assets_shadows_25: 1124479359
+      SmallBurg_outside_assets_shadows_26: 1642210577
+      SmallBurg_outside_assets_shadows_27: 1117168710
+      SmallBurg_outside_assets_shadows_28: -2020668510
+      SmallBurg_outside_assets_shadows_29: 1116158763
+      SmallBurg_outside_assets_shadows_3: 2111592273
+      SmallBurg_outside_assets_shadows_30: 580730610
+      SmallBurg_outside_assets_shadows_31: 552645647
+      SmallBurg_outside_assets_shadows_32: 1648762035
+      SmallBurg_outside_assets_shadows_33: -2014815158
+      SmallBurg_outside_assets_shadows_34: -1127469833
+      SmallBurg_outside_assets_shadows_35: -75521996
+      SmallBurg_outside_assets_shadows_36: -1926221462
+      SmallBurg_outside_assets_shadows_37: -1863280822
+      SmallBurg_outside_assets_shadows_38: -1681617284
+      SmallBurg_outside_assets_shadows_39: 515193980
+      SmallBurg_outside_assets_shadows_4: 3508881
+      SmallBurg_outside_assets_shadows_40: 1849742274
+      SmallBurg_outside_assets_shadows_41: 1976324524
+      SmallBurg_outside_assets_shadows_42: 458319985
+      SmallBurg_outside_assets_shadows_43: 914210470
+      SmallBurg_outside_assets_shadows_44: 323484264
+      SmallBurg_outside_assets_shadows_45: 1748182598
+      SmallBurg_outside_assets_shadows_46: 1546000551
+      SmallBurg_outside_assets_shadows_47: 614102509
+      SmallBurg_outside_assets_shadows_48: 641482578
+      SmallBurg_outside_assets_shadows_49: -456192586
+      SmallBurg_outside_assets_shadows_5: -347415595
+      SmallBurg_outside_assets_shadows_50: 1904162293
+      SmallBurg_outside_assets_shadows_51: -475596694
+      SmallBurg_outside_assets_shadows_52: -1691970658
+      SmallBurg_outside_assets_shadows_53: 327186513
+      SmallBurg_outside_assets_shadows_54: 342515108
+      SmallBurg_outside_assets_shadows_55: -1936609408
+      SmallBurg_outside_assets_shadows_56: -965276185
+      SmallBurg_outside_assets_shadows_57: -1684314118
+      SmallBurg_outside_assets_shadows_58: -244812801
+      SmallBurg_outside_assets_shadows_59: 206126068
+      SmallBurg_outside_assets_shadows_6: -1976824812
+      SmallBurg_outside_assets_shadows_60: 109830421
+      SmallBurg_outside_assets_shadows_61: -1711523067
+      SmallBurg_outside_assets_shadows_62: 1412881007
+      SmallBurg_outside_assets_shadows_63: 1383767633
+      SmallBurg_outside_assets_shadows_64: 1332137648
+      SmallBurg_outside_assets_shadows_65: 550112505
+      SmallBurg_outside_assets_shadows_66: -563991125
+      SmallBurg_outside_assets_shadows_67: -890370599
+      SmallBurg_outside_assets_shadows_68: -144903452
+      SmallBurg_outside_assets_shadows_69: 552328269
+      SmallBurg_outside_assets_shadows_7: 318418763
+      SmallBurg_outside_assets_shadows_70: -1775020343
+      SmallBurg_outside_assets_shadows_71: -1595299129
+      SmallBurg_outside_assets_shadows_72: -615013779
+      SmallBurg_outside_assets_shadows_73: 2011131191
+      SmallBurg_outside_assets_shadows_74: -2024159374
+      SmallBurg_outside_assets_shadows_75: -481583632
+      SmallBurg_outside_assets_shadows_76: -288846872
+      SmallBurg_outside_assets_shadows_77: -1149591094
+      SmallBurg_outside_assets_shadows_78: 1255336209
+      SmallBurg_outside_assets_shadows_79: -1159835135
+      SmallBurg_outside_assets_shadows_8: -536832922
+      SmallBurg_outside_assets_shadows_80: 1597678863
+      SmallBurg_outside_assets_shadows_81: 383873602
+      SmallBurg_outside_assets_shadows_82: 1972204649
+      SmallBurg_outside_assets_shadows_83: 818177938
+      SmallBurg_outside_assets_shadows_84: -1224799617
+      SmallBurg_outside_assets_shadows_85: 691405622
+      SmallBurg_outside_assets_shadows_86: -1236950280
+      SmallBurg_outside_assets_shadows_87: 1494809080
+      SmallBurg_outside_assets_shadows_88: -1499931642
+      SmallBurg_outside_assets_shadows_89: -2124861767
+      SmallBurg_outside_assets_shadows_9: -1796101350
+      SmallBurg_outside_assets_shadows_90: -1473734118
+      SmallBurg_outside_assets_shadows_91: 410808732
+      SmallBurg_outside_assets_shadows_92: 1006278247
+      SmallBurg_outside_assets_shadows_93: -423955779
+      SmallBurg_outside_assets_shadows_94: -624831811
+      SmallBurg_outside_assets_shadows_95: 553116440
+      SmallBurg_outside_assets_shadows_96: -259596508
+      SmallBurg_outside_assets_shadows_97: -410724456
+      SmallBurg_outside_assets_shadows_98: 769679290
+      SmallBurg_outside_assets_shadows_99: 1994094547
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
