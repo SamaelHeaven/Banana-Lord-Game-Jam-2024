@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerPlayerController : MonoBehaviour
+public class PlatformPlayerController : MonoBehaviour
 {
     private Rigidbody2D _rigidbody;
     private PlayerInputActionsPlatformer _inputActions;
 
     [SerializeField] private float speed = 5f;
+    [SerializeField] private bool canMove = true;
     [SerializeField] private float jumpForce = 4.5f;
 
     private bool isGrounded; // Indique si le joueur est au sol
@@ -33,8 +34,11 @@ public class PlayerPlayerController : MonoBehaviour
 
     private void Move()
     {
-        Vector2 movement = _inputActions.Player.Move.ReadValue<Vector2>();
-        _rigidbody.velocity = new Vector2(movement.x * speed, _rigidbody.velocity.y);
+        if (canMove)
+        {
+            Vector2 movement = _inputActions.Player.Move.ReadValue<Vector2>();
+            _rigidbody.velocity = new Vector2(movement.x * speed, _rigidbody.velocity.y);
+        }
     }
 
     private void Jump()
