@@ -11,7 +11,7 @@ public class RoundManagerScript : MonoBehaviour
     [SerializeField] private GameObject entityToSpawn;
     private List<GameObject> _entities { get; } = new ();
 
-    public void SpawnEntities()
+    public List<GameObject> SpawnEntities()
     {
         int spawnZonesIndex = 0;
         for (int i = 0; i < numberOfEntityToSpawn; i++)
@@ -23,11 +23,13 @@ public class RoundManagerScript : MonoBehaviour
                 spawnZonesIndex = 0;
             }
         }
+
+        return _entities;
     }
 
-    public void DeleteEntity(GameObject gameObject)
+    public void DeleteEntity(GameObject enemy)
     {
-        _entities.Remove(gameObject);
+        _entities.Remove(enemy);
     }
     
 }

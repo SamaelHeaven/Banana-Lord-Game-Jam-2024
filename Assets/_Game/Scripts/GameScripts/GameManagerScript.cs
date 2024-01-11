@@ -13,14 +13,11 @@ public class GameManagerScript : MonoBehaviour
     private void Start()
     {
         camera.SwitchCamera(camera.bananaLordCamera);
-        //rounds[_roundIndex].SpawnEntities();
+        rounds[_roundIndex].SpawnEntities();
     }
 
     private void Update()
     {
-        // if (IsPlayerReady())
-        // {
-        // }
         
     }
 
