@@ -6,6 +6,9 @@ using UnityEngine.Serialization;
 
 public class LevelManager : Singleton<LevelManager>
 {
+    [SerializeField] private RoundManagerScript[] rounds;
+    [SerializeField] private CameraManager camera;
+
     [SerializeField] private int numberOfWaves = 5;
     [SerializeField] private float startDelay = 3f;
     [SerializeField] private float endDelay = 3f;
@@ -16,7 +19,7 @@ public class LevelManager : Singleton<LevelManager>
     private WaitForSeconds startWait;
     private WaitForSeconds endWait;
     
-    private int _waveCount = 1;
+    private int _waveCount = 0;
     private List<Enemy> _currentWaveMonsters = new();
     
     private void Start()
@@ -50,7 +53,7 @@ public class LevelManager : Singleton<LevelManager>
     {
         while (_waveCount != numberOfWaves) 
         {
-            SpawnWave(_waveCount);
+            SpawnWave();
 
             while (AreEnemiesAlive())
             {
@@ -66,67 +69,11 @@ public class LevelManager : Singleton<LevelManager>
         return _currentWaveMonsters.Any(enemy => enemy.IsAlive());
     }
 
-    private void SpawnWave(int waveCount)
+    private void SpawnWave()
     {
         _currentWaveMonsters.Clear();
         
-        var playerPosition = _player.transform.position;
-
-        if (waveCount == 1)
-        {
-            SpawnMonsterAtRandom(playerPosition, 2);
-        } 
-        else if (waveCount == 2)
-        {
-            SpawnMonsterAtRandom(playerPosition, 4);
-        }
-        else if (waveCount == 3)
-        {
-            SpawnMonsterAtRandom(playerPosition, 6);
-        }
-        else if (waveCount == 4)
-        {
-            SpawnMonsterAtRandom(playerPosition, 8);
-        }
-        else if (waveCount == 5)
-        {
-            SpawnMonsterAtRandom(playerPosition, 8);
-        }
-    }
-
-    private void SpawnMonsterAtRandom(Vector3 playerPosition, int monsterCount)
-    {
-        for (int i = 0; i < monsterCount; ++i)
-        {
-            SpawnSphereOnEdgeRandomly3D(transform);
-            // var monsterPosition = new Vector3(
-            //     playerPosition.x + UnityEngine.Random.Range(-4, 4),
-            //     playerPosition.y + UnityEngine.Random.Range(-4, 4),
-            //     playerPosition.z);
-            //var monster = Instantiate(_monsterPrefab, monsterPosition, _player.transform.rotation);
-            // _currentWaveMonsters.Add(monster);
-        }
-    }
-    
-    private void SpawnSphereOnEdgeRandomly3D(Transform transform)
-    {
-        var radius = 10f;
-        var randomPos = Random.insideUnitSphere * radius;
-        randomPos += transform.position;
-        randomPos.y = 0f;
-            
-        var direction = randomPos - transform.position;
-        direction.Normalize();
-            
-        var dotProduct = Vector3.Dot(transform.forward, direction);
-        var dotProductAngle = Mathf.Acos(dotProduct / transform.forward.magnitude * direction.magnitude);
-            
-        randomPos.x = Mathf.Cos(dotProductAngle) * radius + transform.position.x;
-        randomPos.z = 0;
-        randomPos.y = Mathf.Sin(dotProductAngle * (Random.value > 0.5f ? 1f : -1f)) * radius + transform.position.z;
-            
-        var monster = Instantiate(_enemyPrefab, randomPos, Quaternion.identity);
-        monster.transform.position = randomPos;
-        _currentWaveMonsters.Add(monster);
+        camera.SwitchCamera(camera.bananaLordCamera);
+        rounds[_waveCount].SpawnEntities();
     }
 }

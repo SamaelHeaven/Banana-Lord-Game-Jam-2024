@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float life = 5;
-    
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         IsBullet enemyScript = other.GetComponent<IsBullet>();
