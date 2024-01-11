@@ -11,20 +11,20 @@ public class GameManagerScript : MonoBehaviour
 
     private void Start()
     {
+        rounds[_roundIndex].SpawnEntities();
 
     }
 
     private void Update()
     {
-        if (IsPlayerReady())
-        {
-            rounds[_roundIndex].SpawnEntities();
-        }
+        // if (IsPlayerReady())
+        // {
+        // }
         
     }
 
-    private bool IsPlayerReady()
-    {
-        throw new NotImplementedException();
-    }
+    // private bool IsPlayerReady()
+    // {
+    //     throw new NotImplementedException();
+    // }
 }
