@@ -1,13 +1,14 @@
 using UnityEngine;
 
-public class InputController : Singleton<InputController>
+public class TopDownInputController : Singleton<TopDownInputController>
 {
     public Vector2 Movement { get; set; }
 
     private PlayerInputActionsTopDown _inputActions;
     
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         _inputActions = new PlayerInputActionsTopDown();
     }
 
