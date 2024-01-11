@@ -2,7 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class BulletSpawner : MonoBehaviour
+public class BulletShooter : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private float bulletSpeed;
@@ -25,15 +25,12 @@ public class BulletSpawner : MonoBehaviour
 
     private void FireBullet()
     {
-        var position = transform.position;
-        var platformCenter = position;
-        var mousePosition = Input.mousePosition;
-        var worldMousePosition = Camera.main.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, position.z));
-        var launchDirection = worldMousePosition - platformCenter;
-        var length = Mathf.Sqrt(launchDirection.x * launchDirection.x + launchDirection.y * launchDirection.y);
-        launchDirection = new Vector3(launchDirection.x * bulletSpeed / length, launchDirection.y * bulletSpeed / length, 0f);
+        var platformCenter = transform.position;
+        var launchDirection = transform.rotation * Vector3.right;
         var projectile = Instantiate(bulletPrefab, platformCenter, Quaternion.identity);
+        projectile.transform.rotation = transform.rotation;
+        projectile.GetComponent<SpriteRenderer>().flipY = GetComponent<SpriteRenderer>().flipY;
         var projectileRb = projectile.GetComponent<Rigidbody2D>();
-        projectileRb.velocity = launchDirection;
+        projectileRb.velocity = launchDirection * bulletSpeed;
     }
 }
