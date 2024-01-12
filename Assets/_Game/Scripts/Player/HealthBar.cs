@@ -1,7 +1,6 @@
 using System;
 using UnityEngine;
 
-[ExecuteInEditMode]
 public class HealthBar : MonoBehaviour
 {
     public float startValue = 1.0f;
@@ -20,10 +19,5 @@ public class HealthBar : MonoBehaviour
         // Set the width of the RectTransform based on the startValue and input value
         float newWidth = defaultWidth * value;
         rectTransform.sizeDelta = new Vector2(newWidth, rectTransform.sizeDelta.y);
-    }
-
-    private void OnDestroy()
-    {
-        SetValue(defaultWidth);
     }
 }
