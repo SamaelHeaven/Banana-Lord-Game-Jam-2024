@@ -71,4 +71,9 @@ public class PlayerMovement : MonoBehaviour
                 _animator.Play("Player_Bottom");
         }
     }
+
+    public void IncreaseSpeed(float speedBonus)
+    {
+        speed += speedBonus;
+    }
 }

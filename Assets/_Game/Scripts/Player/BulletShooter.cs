@@ -36,4 +36,9 @@ public class BulletShooter : MonoBehaviour
         projectileRb.velocity = launchDirection * bulletSpeed;
         shootSound.Play();
     }
+
+    public void IncreaseSpeed(float speed)
+    {
+        fireDelay = Mathf.Max(0, fireDelay - speed);
+    }
 }

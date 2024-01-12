@@ -7,7 +7,7 @@ using UnityEngine.Serialization;
 
 public class TakeDamage : MonoBehaviour
 {
-    private static float maxHealth = 100;
+    public static float maxHealth = 100;
     private float health = maxHealth;
     [SerializeField] private float coolDownTime;
     [SerializeField] private float colorCoolDown;
