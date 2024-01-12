@@ -72,7 +72,7 @@ public class TakeDamage : MonoBehaviour
 
     public void Heal(int heal)
     {
-        health = Mathf.Max(maxHealth, health + heal);
+        health = Mathf.Min(maxHealth, health + heal);
     }
 
     public void takeDamage(int damage)
