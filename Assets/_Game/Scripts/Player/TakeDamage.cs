@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 public class TakeDamage : MonoBehaviour
@@ -37,6 +38,11 @@ public class TakeDamage : MonoBehaviour
         if (_damage)
         {
             takeDamage(10);
+        }
+
+        if (health <= 0)
+        {
+            SceneManager.LoadScene("_Game/Scenes/GameOver");
         }
     }
 
