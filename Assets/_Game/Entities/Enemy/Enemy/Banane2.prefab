@@ -276,6 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCoolDown: 0.2
+  maxHealth: 30
 --- !u!114 &733139172487497440
 MonoBehaviour:
   m_ObjectHideFlags: 0
