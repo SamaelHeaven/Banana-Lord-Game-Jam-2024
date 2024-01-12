@@ -62,7 +62,7 @@ public class LevelManager : Singleton<LevelManager>
                 yield return null;
             }
 
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.9f);
             _waveCount++;
 
             if (numberOfWaves != _waveCount)
