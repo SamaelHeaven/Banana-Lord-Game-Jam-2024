@@ -78,7 +78,7 @@ public class LevelManager : Singleton<LevelManager>
 
     private bool AreEnemiesAlive()
     {
-        if (_currentWaveMonsters.Count == 0) return false;
+        if (_currentWaveMonsters.Count <= 0) return false;
         
         return _currentWaveMonsters.Any(go =>
         {
