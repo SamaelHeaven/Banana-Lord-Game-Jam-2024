@@ -45,7 +45,6 @@ public class Enemy : MonoBehaviour
 
     private void TakeDamage(int damage)
     {
-        _health--;
         if (!IsAlive())
         {
             gameObject.SetActive(false);
@@ -60,6 +59,6 @@ public class Enemy : MonoBehaviour
 
     public bool IsAlive()
     {
-        return _health >= 0;
+        return _health > 0;
     }
 }
