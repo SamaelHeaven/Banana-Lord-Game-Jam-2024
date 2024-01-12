@@ -6,10 +6,16 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float colorCoolDown = 0.5f;
-    public static float maxHealth = 100;
-    private float _health = maxHealth;
+    [SerializeField] private float maxHealth = 100;
+
+    private float _health;
     private float _colorClock;
     private bool _redColor;
+
+    private void Awake()
+    {
+        _health = maxHealth;
+    }
 
     private void Update()
     {
@@ -26,7 +32,12 @@ public class Enemy : MonoBehaviour
         IsBullet enemyScript = other.GetComponent<IsBullet>();
 
         if (enemyScript != null)
-        {
+        { 
+            if (enemyScript.FromBoss)
+            {
+                return;
+            }
+            
             Destroy(other.gameObject);
             TakeDamage(10);
         }

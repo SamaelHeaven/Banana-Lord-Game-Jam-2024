@@ -20,7 +20,7 @@ public class LevelManager : Singleton<LevelManager>
     private WaitForSeconds endWait;
     
     private int _waveCount = 0;
-    private List<Enemy> _currentWaveMonsters = new();
+    private List<GameObject> _currentWaveMonsters = new();
     
     private void Start()
     {
@@ -66,7 +66,11 @@ public class LevelManager : Singleton<LevelManager>
 
     private bool AreEnemiesAlive()
     {
-        return _currentWaveMonsters.Any(enemy => enemy.IsAlive());
+        return _currentWaveMonsters.Any(go =>
+        {
+            var enemy = go.GetComponent<Enemy>();
+            return enemy.IsAlive();
+        });
     }
 
     private void SpawnWave()
@@ -74,7 +78,7 @@ public class LevelManager : Singleton<LevelManager>
         _currentWaveMonsters.Clear();
         
         camera.SwitchCamera(camera.bananaLordCamera);
-        rounds[_waveCount].SpawnEntities();
+        _currentWaveMonsters = rounds[_waveCount].SpawnEntities();
     }
 
     public void SwitchCameraBackToPlayer()

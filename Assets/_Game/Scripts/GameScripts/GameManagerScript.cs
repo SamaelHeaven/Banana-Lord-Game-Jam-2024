@@ -14,6 +14,8 @@ public class GameManagerScript : MonoBehaviour
     {
         camera.SwitchCamera(camera.bananaLordCamera);
         rounds[_roundIndex].SpawnEntities();
+        
+        
     }
 
     private void Update()
