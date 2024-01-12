@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameOverMenu : MonoBehaviour
 {
     [SerializeField] private string _gameScene;
+    [SerializeField] private string _menuScene;
     [SerializeField] private List<GameObject> _toHide;
     [SerializeField] private Canvas _buttons;
     [SerializeField] private AudioSource _audio;
@@ -43,6 +44,11 @@ public class GameOverMenu : MonoBehaviour
         StartCoroutine(FadeoutAndRestart());
     }
 
+    public void QuitGame()
+    {
+        StartCoroutine(FadeoutAndQuit());
+    }
+
     IEnumerator FadeoutAndRestart()
     {
         _fadeOut = true;
@@ -52,13 +58,12 @@ public class GameOverMenu : MonoBehaviour
         SceneManager.LoadScene(_gameScene);
     }
 
-    public void QuitGame()
+    IEnumerator FadeoutAndQuit()
     {
-        #if UNITY_STANDALONE
-                Application.Quit();
-        #endif
-        #if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-        #endif
+        _fadeOut = true;
+
+        yield return new WaitForSeconds(2f);
+
+        SceneManager.LoadScene(_menuScene);
     }
 }

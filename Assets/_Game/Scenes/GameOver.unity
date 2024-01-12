@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameScene: Game
+  _menuScene: MenuScene
   _toHide:
   - {fileID: 1147148571}
   - {fileID: 1747333321}
