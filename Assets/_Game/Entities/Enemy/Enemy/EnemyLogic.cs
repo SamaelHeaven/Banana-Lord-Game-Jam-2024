@@ -6,8 +6,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float colorCoolDown = 0.5f;
-    public static float maxHealt = 100;
-    private float life = maxHealt;
+    public static float maxHealth = 100;
+    private float _health = maxHealth;
     private float _colorClock;
     private bool _redColor;
 
@@ -34,12 +34,12 @@ public class Enemy : MonoBehaviour
 
     private void TakeDamage(int damage)
     {
-        life--;
-        if (life <= 0)
+        _health--;
+        if (_health <= 0)
         {
             Destroy(gameObject);
         }
-        life -= damage;
+        _health -= damage;
         _redColor = true;
         GetComponent<SpriteRenderer>().color = Color.red; 
         _colorClock = 0;
@@ -48,6 +48,6 @@ public class Enemy : MonoBehaviour
 
     public bool IsAlive()
     {
-        return life != 0;
+        return _health != 0;
     }
 }

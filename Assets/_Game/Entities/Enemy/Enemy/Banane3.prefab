@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 733139172487497440}
   - component: {fileID: 5466689141088594707}
   - component: {fileID: -1563339137116578777}
+  - component: {fileID: -7321565151569482896}
   m_Layer: 0
   m_Name: Banane3
   m_TagString: Untagged
@@ -322,3 +323,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6d0c1c415ba481783d495e7639229e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-7321565151569482896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8491607589652819113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8db656e525c446692ac9c6ba47d445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upperBound: 2
+  lowerBound: 3
