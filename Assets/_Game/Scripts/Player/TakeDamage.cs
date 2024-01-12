@@ -34,7 +34,7 @@ public class TakeDamage : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         IsEnemy enemyScript = other.GetComponent<IsEnemy>();
         if (enemyScript == null)
