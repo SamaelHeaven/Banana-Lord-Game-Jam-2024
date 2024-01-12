@@ -83,6 +83,8 @@ public class GodBanana : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         _renderer.color = oldColor;
         
+        GameObject.Find("LaserShoot").GetComponent<AudioSource>().Play();
+        
         var numberOfAttacks = UnityEngine.Random.Range(12, 18);
         var angle = 30;
         if (numberOfAttacks != 0)
