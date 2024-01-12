@@ -8,6 +8,7 @@ public class DisableBananaLordCamera : MonoBehaviour
     [SerializeField] private LevelManager levelManager;
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("WHYYY");
         if (other.TryGetComponent<Enemy>(out var enemy))
         {
             levelManager.SwitchCameraBackToPlayer();

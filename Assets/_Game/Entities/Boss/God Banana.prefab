@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4105250184632110546}
   - component: {fileID: 6648459057329846653}
   - component: {fileID: 2144355550053066565}
+  - component: {fileID: 3055859116720334547}
   m_Layer: 0
   m_Name: God Banana
   m_TagString: Untagged
@@ -101,11 +102,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dcc9184d3ee246b6b61f699230a7aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3.35
-  _stopChaseAtRadius: 5.5
+  _speed: 4.75
+  _stopChaseAtRadius: 5
   _projectileSpawner: {fileID: 1166462164018813954}
   _projectilePrefab: {fileID: 6613457382295168498, guid: 2eecbdf03652c4d60b69d06b0ee7bd1f, type: 3}
-  _shootingPower: 1.5
+  _shootingPower: 1.45
 --- !u!60 &4105250184632110546
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -231,6 +232,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorCoolDown: 0.5
   maxHealth: 1200
+--- !u!50 &3055859116720334547
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2347027114118633756}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7053762209521506984
 GameObject:
   m_ObjectHideFlags: 0

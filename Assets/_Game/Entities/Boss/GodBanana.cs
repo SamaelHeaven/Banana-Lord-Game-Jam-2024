@@ -18,11 +18,13 @@ public class GodBanana : MonoBehaviour
     private GameObject _player;
     private Vector3 newPosition;
 
-    private const float ShootBananaCooldown = 1f;
+    private const float ShootBananaCooldown = 1.4f;
     private float _lastShootBananaTime;
     
-    private const float SpecialAttackCooldown = 2f;
+    private const float SpecialAttackCooldown = 2.5f;
     private float _lastSpecialAttackTime;
+    
+    private const double AttackRadius = 20f;
     
     private void Start()
     {
@@ -33,7 +35,7 @@ public class GodBanana : MonoBehaviour
     private void Update()
     {
         var chance = UnityEngine.Random.value;
-        if (_lastSpecialAttackTime >= SpecialAttackCooldown && chance < 0.025f)
+        if (_lastSpecialAttackTime >= SpecialAttackCooldown && chance < 0.035f)
         {
             DoSpecialAttack();
         }
@@ -65,6 +67,11 @@ public class GodBanana : MonoBehaviour
 
     private void DoSpecialAttack()
     {
+        if (Vector2.Distance(transform.position, _player.transform.position) > AttackRadius)
+        {
+            return;
+        }
+        
         _lastSpecialAttackTime = 0f;
         StartCoroutine(SpecialAttack());
     }
@@ -120,6 +127,11 @@ public class GodBanana : MonoBehaviour
 
     private void ShootBananas()
     {
+        if (Vector2.Distance(transform.position, _player.transform.position) > AttackRadius)
+        {
+            return;
+        }
+        
         _lastShootBananaTime = 0f;
 
         var isTripleShot = (UnityEngine.Random.value < 0.5f);
@@ -152,6 +164,8 @@ public class GodBanana : MonoBehaviour
             projectile3.GetComponent<IsBullet>().FromBoss = true;
         }
     }
+
+    
 
     private void MoveTowards(Transform target)
     {
