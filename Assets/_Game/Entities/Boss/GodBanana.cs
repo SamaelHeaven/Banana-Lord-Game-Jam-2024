@@ -79,7 +79,7 @@ public class GodBanana : MonoBehaviour
     private IEnumerator SpecialAttack()
     {
         var oldColor = _renderer.color;
-        _renderer.color = Color.red;
+        _renderer.color = Color.yellow;
         yield return new WaitForSeconds(1.5f);
         _renderer.color = oldColor;
         
