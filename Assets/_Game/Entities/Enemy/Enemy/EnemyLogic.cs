@@ -60,6 +60,6 @@ public class Enemy : MonoBehaviour
 
     public bool IsAlive()
     {
-        return _health > 0;
+        return _health >= 0;
     }
 }
