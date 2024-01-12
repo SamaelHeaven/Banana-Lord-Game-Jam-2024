@@ -18,7 +18,7 @@ public class GodBanana : MonoBehaviour
     private GameObject _player;
     private Vector3 newPosition;
 
-    private const float ShootBananaCooldown = 1.4f;
+    private const float ShootBananaCooldown = 1.2f;
     private float _lastShootBananaTime;
     
     private const float SpecialAttackCooldown = 2.5f;
