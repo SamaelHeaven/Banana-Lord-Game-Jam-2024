@@ -20,6 +20,10 @@ public class BulletShooter : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0))
         {
+            if (!PlayerActivator.flag)
+            {
+                return;
+            }
             _fireClock = 0;
             FireBullet();
         }
