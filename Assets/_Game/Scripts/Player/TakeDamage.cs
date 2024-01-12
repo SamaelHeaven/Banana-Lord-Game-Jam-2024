@@ -48,6 +48,7 @@ public class TakeDamage : MonoBehaviour
     {
         if (_clock > coolDownTime)
         {
+            GameObject.Find("HitSound").GetComponent<AudioSource>().Play();
             life -= damage;
             _redColor = true;
             GameObject.Find("Player Sprite").GetComponent<SpriteRenderer>().color = Color.red;
