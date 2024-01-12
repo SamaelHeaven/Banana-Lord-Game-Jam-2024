@@ -5,17 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
-    [SerializeField] private string _introScene;
-    [SerializeField] private string _gameScene;
 
     public void OpenIntroScene()
     {
-        SceneManager.LoadScene(_introScene);
+        SceneManager.LoadScene("_Game/Scenes/InfoScene");
     }
     
     public void OpenGameScene()
     {
-        SceneManager.LoadScene(_gameScene);
+        SceneManager.LoadScene("_Game/Scenes/Game");
     }
 
     public void QuitGame()
