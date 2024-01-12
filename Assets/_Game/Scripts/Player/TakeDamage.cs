@@ -64,6 +64,11 @@ public class TakeDamage : MonoBehaviour
         }
     }
 
+    public void Heal(int heal)
+    {
+        health = Mathf.Max(maxHealth, health + health);
+    }
+
     public void takeDamage(int damage)
     {
         if (_clock > coolDownTime)
