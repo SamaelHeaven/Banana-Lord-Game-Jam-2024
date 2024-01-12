@@ -15,6 +15,7 @@ public class TakeDamage : MonoBehaviour
     private float _clock;
     private float _colorClock;
     private bool _redColor;
+    private bool _damage;
 
     private void Start()
     {
@@ -32,16 +33,35 @@ public class TakeDamage : MonoBehaviour
             _redColor = false;
             GameObject.Find("Player Sprite").GetComponent<SpriteRenderer>().color = Color.white; 
         }
+
+        if (_damage)
+        {
+            takeDamage(10);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.TryGetComponent<IsEnemy>(out _))
+        {
+            _damage = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.TryGetComponent<IsEnemy>(out _))
+        {
+            _damage = false;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        IsEnemy enemyScript = other.GetComponent<IsEnemy>();
-        if (enemyScript == null)
+        if (other.TryGetComponent<IsEnemy>(out _))
         {
-           return; 
+            _damage = true;
         }
-        takeDamage(10);
     }
 
     public void takeDamage(int damage)
