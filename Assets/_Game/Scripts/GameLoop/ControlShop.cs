@@ -13,13 +13,13 @@ public class ControlShop : MonoBehaviour
     {
         if (isShopActive)
         {
-            PlayerActivator.SetActive(false);
+            PlayerActivator.SetActive(true);
             uiShop.gameObject.SetActive(false);
             isShopActive = false;
         }
         else
         {
-            PlayerActivator.SetActive(true);
+            PlayerActivator.SetActive(false);
             uiShop.gameObject.SetActive(true);
             isShopActive = true;
         }

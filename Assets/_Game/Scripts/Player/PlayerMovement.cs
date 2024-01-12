@@ -26,6 +26,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void ProcessInputs()
     {
+        if (!PlayerActivator.flag)
+        {
+            return;
+        }
         var moveX = Input.GetAxisRaw("Horizontal");
         var moveY = Input.GetAxisRaw("Vertical");
         _velocity = new Vector2(moveX, moveY).normalized;

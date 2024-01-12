@@ -7,8 +7,13 @@ public class MenuScript : MonoBehaviour
 {
     [SerializeField] private string _introScene;
 
-    public static void OpenIntroScene()
+    public void OpenIntroScene()
     {
-        
+        SceneManager.LoadScene(_introScene);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
