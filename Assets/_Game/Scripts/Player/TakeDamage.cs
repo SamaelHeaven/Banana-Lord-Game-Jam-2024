@@ -7,8 +7,8 @@ using UnityEngine.Serialization;
 
 public class TakeDamage : MonoBehaviour
 {
-    private static float maxHealt = 100;
-    private float life = maxHealt;
+    private static float maxHealth = 100;
+    private float health = maxHealth;
     [SerializeField] private float coolDownTime;
     [SerializeField] private float colorCoolDown;
     private HealthBar _healthBar;
@@ -24,7 +24,7 @@ public class TakeDamage : MonoBehaviour
 
     private void Update()
     {
-        _healthBar.SetValue(Mathf.Max(0, life / maxHealt));
+        _healthBar.SetValue(Mathf.Max(0, health / maxHealth));
         _clock += Time.deltaTime;
         _colorClock += Time.deltaTime;
         if (_redColor && _colorClock >= colorCoolDown)
@@ -49,7 +49,7 @@ public class TakeDamage : MonoBehaviour
         if (_clock > coolDownTime)
         {
             GameObject.Find("HitSound").GetComponent<AudioSource>().Play();
-            life -= damage;
+            health -= damage;
             _redColor = true;
             GameObject.Find("Player Sprite").GetComponent<SpriteRenderer>().color = Color.red;
             _clock = 0;
