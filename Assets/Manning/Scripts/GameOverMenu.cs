@@ -8,7 +8,6 @@ public class GameOverMenu : MonoBehaviour
 {
     [SerializeField] private string _gameScene;
     [SerializeField] private List<GameObject> _toHide;
-    [SerializeField] private EndMenuSkip _endMenu;
     [SerializeField] private Canvas _buttons;
     [SerializeField] private AudioSource _audio;
     public float fadeOutDuration = 2.0f;
@@ -17,13 +16,6 @@ public class GameOverMenu : MonoBehaviour
 
     private void Update()
     {
-        if (Input.anyKeyDown && _endMenu.CanSkip || _endMenu.Force)
-        {
-            HideObjects();
-            _buttons.gameObject.SetActive(true);
-            _fadeOut = true;
-        }
-
         if (_fadeOut)
         {
             FadeOutSound();
@@ -44,11 +36,19 @@ public class GameOverMenu : MonoBehaviour
         {
             _audio.volume -= 0.0075f;
         }
-        
     }
 
     public void RestartGame()
     {
+        StartCoroutine(FadeoutAndRestart());
+    }
+
+    IEnumerator FadeoutAndRestart()
+    {
+        _fadeOut = true;
+
+        yield return new WaitForSeconds(2f);
+
         SceneManager.LoadScene(_gameScene);
     }
 

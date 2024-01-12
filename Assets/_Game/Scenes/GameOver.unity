@@ -159,7 +159,6 @@ MonoBehaviour:
   - {fileID: 1415921219}
   - {fileID: 770760579}
   - {fileID: 1905340611}
-  _endMenu: {fileID: 1325399336}
   _buttons: {fileID: 1718492221}
   _audio: {fileID: 1666137420}
   fadeOutDuration: 2
@@ -211,11 +210,6 @@ Transform:
   - {fileID: 1325399332}
   m_Father: {fileID: 1674863292}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &872229306 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5435404357496863120, guid: 3983c6b027135a04e9d19d0bc06b0f85, type: 3}
-  m_PrefabInstance: {fileID: 7505241704282315085}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1147148571
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,20 +692,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4622311542191661866, guid: 3983c6b027135a04e9d19d0bc06b0f85, type: 3}
   m_PrefabInstance: {fileID: 7505241704282315085}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1325399336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872229306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a792961b20d416a4da4df724b3cf85b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CanSkip: 0
-  Force: 0
 --- !u!1 &1350816198
 GameObject:
   m_ObjectHideFlags: 0
@@ -6656,10 +6636,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5435404357496863120, guid: 3983c6b027135a04e9d19d0bc06b0f85, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1325399336}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3983c6b027135a04e9d19d0bc06b0f85, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
