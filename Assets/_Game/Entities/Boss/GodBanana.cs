@@ -132,6 +132,8 @@ public class GodBanana : MonoBehaviour
             return;
         }
         
+        GameObject.Find("LaserShoot").GetComponent<AudioSource>().Play();
+        
         _lastShootBananaTime = 0f;
 
         var isTripleShot = (UnityEngine.Random.value < 0.5f);
