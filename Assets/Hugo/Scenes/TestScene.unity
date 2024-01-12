@@ -718,6 +718,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &967514480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6047472161322808074, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_Name
+      value: Dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236897449525624087, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f59489c77d05804da798e38f0d547a6, type: 3}
 --- !u!1 &975047805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,11 +1081,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6395844102862338539, guid: 2c5633a4babc74dddadc0623a4211ddc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217077056060671913, guid: 2c5633a4babc74dddadc0623a4211ddc, type: 3}
+      propertyPath: startValue
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3435234767922069720, guid: 2c5633a4babc74dddadc0623a4211ddc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1507931280}
   m_SourcePrefab: {fileID: 100100000, guid: 2c5633a4babc74dddadc0623a4211ddc, type: 3}
+--- !u!1 &1507931276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3435234767922069720, guid: 2c5633a4babc74dddadc0623a4211ddc, type: 3}
+  m_PrefabInstance: {fileID: 1422093157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1507931280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507931276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96369b74603704773abc229748ef7c35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolDownTime: 0.5
+  colorCoolDown: 0.5
 --- !u!4 &1954318429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 495117071423385224, guid: 09006bfa88d1645969287d8324cf482a, type: 3}
@@ -1281,3 +1368,4 @@ SceneRoots:
   - {fileID: 6224316699585136328}
   - {fileID: 8164041694751427010}
   - {fileID: 1422093157}
+  - {fileID: 967514480}

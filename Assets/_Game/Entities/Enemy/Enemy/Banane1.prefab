@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 733139172487497440}
   - component: {fileID: 5466689141088594707}
   - component: {fileID: 2044564265011966759}
+  - component: {fileID: -6278226950716545667}
   m_Layer: 0
   m_Name: Banane1
   m_TagString: Untagged
@@ -165,7 +166,7 @@ MonoBehaviour:
   radius: 2.4
   height: 2
   canMove: 1
-  maxSpeed: 3
+  maxSpeed: 4
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
@@ -274,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91376f43a26db4881a424b9a8633f797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 7
+  colorCoolDown: 0.2
 --- !u!114 &733139172487497440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,3 +323,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6d0c1c415ba481783d495e7639229e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-6278226950716545667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8491607589652819113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8db656e525c446692ac9c6ba47d445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upperBound: 2.5
+  lowerBound: 3.5
