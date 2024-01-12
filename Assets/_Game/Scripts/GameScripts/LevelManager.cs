@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 public class LevelManager : Singleton<LevelManager>
@@ -72,6 +73,12 @@ public class LevelManager : Singleton<LevelManager>
                 {
                     yield return null;
                 }
+            }
+            else
+            {
+                yield return new WaitForSeconds(3f);
+                
+                SceneManager.LoadScene("_Game/Scenes/MenuScene");
             }
         }
     }
