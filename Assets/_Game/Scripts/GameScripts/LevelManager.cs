@@ -13,6 +13,8 @@ public class LevelManager : Singleton<LevelManager>
     [SerializeField] private float startDelay = 3f;
     [SerializeField] private float endDelay = 3f;
     [FormerlySerializedAs("_monsterPrefab")] [SerializeField] private Enemy _enemyPrefab;
+    
+    [SerializeField] private ControlShop shop;
 
     private PlayerMovement _player;
     
@@ -59,8 +61,18 @@ public class LevelManager : Singleton<LevelManager>
             {
                 yield return null;
             }
-            
+
+            yield return new WaitForSeconds(0.5f);
             _waveCount++;
+
+            if (numberOfWaves != _waveCount)
+            {
+                shop.ToggleShop();
+                while (shop.isShopActive)
+                {
+                    yield return null;
+                }
+            }
         }
     }
 

@@ -14,6 +14,8 @@ public class BossProjectile : MonoBehaviour
         var velocity = (Direction * ShootingPower);
         var rb = GetComponent<Rigidbody2D>();
         rb.velocity =  velocity;
+        
+        Destroy(gameObject, 10f);
     }
 
     private void Update()
