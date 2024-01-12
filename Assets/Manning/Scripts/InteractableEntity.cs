@@ -3,6 +3,7 @@ using UnityEngine;
 public abstract class InteractableEntity : MonoBehaviour
 {
     [SerializeField] protected PlayerMovement _player;
+    [SerializeField] protected TakeDamage _playerHealth;
     [SerializeField] protected AudioSource _audioSource;
     [SerializeField] protected Animator _animator;
     [SerializeField] protected Animation _animation;
@@ -15,6 +16,7 @@ public abstract class InteractableEntity : MonoBehaviour
     void Start()
     {
         _player = FindAnyObjectByType<PlayerMovement>();
+        _playerHealth = FindAnyObjectByType<TakeDamage>();
         _animator = GetComponentInChildren<Animator>();
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         _particleSystem = GetComponentInChildren<ParticleSystem>();
@@ -41,8 +43,11 @@ public abstract class InteractableEntity : MonoBehaviour
                 if (!_audioSource.isPlaying)
                 {
                     _audioSource.Play();
+                    _callBack();
                 }
             }
         }
     }
+
+    protected abstract void _callBack();
 }
