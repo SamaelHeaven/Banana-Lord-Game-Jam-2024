@@ -26,7 +26,7 @@ public class UiItemOnClick : MonoBehaviour
             default:
             case UpgradeList.ItemType.ItemOne:
                 // 0.03
-                Upgrades.ShootingSpeed(0.03f);
+                Upgrades.ShootingSpeed(0.0175f);
                 uiShop.gameObject.SetActive(false);
                 shop.ToggleShop();
                 break;

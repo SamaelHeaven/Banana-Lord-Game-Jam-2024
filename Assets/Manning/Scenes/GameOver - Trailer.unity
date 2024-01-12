@@ -159,7 +159,6 @@ MonoBehaviour:
   - {fileID: 1415921219}
   - {fileID: 770760579}
   - {fileID: 1905340611}
-  _endMenu: {fileID: 1325399336}
   _buttons: {fileID: 1718492221}
   _audio: {fileID: 1666137420}
   fadeOutDuration: 2
@@ -6515,7 +6514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1917519323
 RectTransform:
   m_ObjectHideFlags: 0
