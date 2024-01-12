@@ -76,4 +76,9 @@ public class LevelManager : Singleton<LevelManager>
         camera.SwitchCamera(camera.bananaLordCamera);
         rounds[_waveCount].SpawnEntities();
     }
+
+    public void SwitchCameraBackToPlayer()
+    {
+        camera.SwitchCamera(camera.playerCamera);
+    }
 }
