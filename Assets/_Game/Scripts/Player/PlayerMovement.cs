@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!PlayerActivator.flag)
         {
+            _velocity = new Vector2();
             return;
         }
         var moveX = Input.GetAxisRaw("Horizontal");
